@@ -1,0 +1,78 @@
+*{
+    /* background-color: lightseagreen; */
+}
+body{
+    background-color: lightseagreen;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.ClockBody{
+    width: 550px;
+    height: 400px;
+    background-color: black;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 7px;
+}
+.WhiteBody{
+    width: 90%;
+    height: 80%;
+    background-color: cornflowerblue;
+    border-radius: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.Content{
+    /* background-color: yellow; */
+    /* background-color: orange; */
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 15px;
+    padding: 25px;
+}
+
+.Number{
+    width: 180px;
+    height: 180px;
+    background-color: rgb(11, 138, 11);
+    border-radius: 50%;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 25px;
+}
+
+.Button{
+    display: flex;
+    gap: 15px;
+}
+.mybtn{
+    border: 0;
+    outline: 0;
+    color: white;
+    background-color: blue;
+    padding: 7px 18px;
+    font-weight: 700;
+    font-size: 22px;
+    border-radius: 5px;
+    box-shadow: 15px 15px 25px black;
+}
+.DoStop{
+    background-color: cornflowerblue;
+}
+
+@media only screen and (max-width:576px) {
+    .ClockBody{
+        height: 550px;
+    }
+    .Button{
+        flex-direction: column;
+    }
+}
